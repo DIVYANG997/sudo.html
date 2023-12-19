@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0px;
+    }
+    .main{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content:space-around;
+        list-style: none;
+        padding: 0px 20px;
+
+    }
+
+    li:hover{
+        line-height: 20px;
+        
+        background-color:blue;
+        cursor:;
+        
+    }
+    .dropdown{
+        position: relative;
+    }
+
+    .list-main{
+    background-color: rgba(205, 79, 25, 0.493);
+    list-style: none;
+    width: 100px;
+    position: absolute;
+    display: none;
+
+    }
+
+    .list-main>li{
+        border-bottom: 1px solid black;
+        padding: 5px 10px;
+    }
+
+     .dropdown:hover .list-main{
+        display: block;
+     }
+
+</style>
+<body>
+    
+<div class="main">
+
+    <div class="dropdown">
+    <li style="padding: 10px;">Frontend</li>
+    <div class="list-main">
+    <li>Html</li>
+    <li>Css</li>
+    <li>Css Advance</li>
+    <li>Javascript</li>
+    <li>Bootstrap</li>
+    <li>React JS</li>
+    </div>
+       
+ </div>
+
+ <div class="dropdown">
+    <li style="padding: 10px;">Mern Stack</li>
+    <div class="list-main">
+    <li>Mongo Db</li>
+    <li>Express</li>
+    <li>React Js</li>
+    <li>Node Js</li>
+    </div>
+           
+ </div>
+        
+ <div class="dropdown">
+    <li style="padding: 10px;">Python</li>
+    <div class="list-main">
+    <li>Numpy</li>
+    <li>Pandas</li>
+    <li>Scipy</li>
+    <li>Django</li>
+    <li>Machine Learning</li>
+    </div>
+               
+ </div>
+
+ <div class="dropdown">
+    <li style="padding: 10px;">Data Analysis</li>
+    <div class="list-main">
+    <li>Python</li>
+    <li>Advance Excel</li>
+    <li>MS SQL</li>
+    <li>Power Bi</li>
+    <li>Exel</li>
+    </div>
+                   
+ </div>
+                     
+ <div class="dropdown">
+    <li style="padding: 10px;">Data Science</li>
+    <div class="list-main">
+    <li>Python</li>
+    <li>Numpy</li>
+    <li>Pandas</li>
+    <li>Django</li>
+    <li>Machine Learning</li>
+    </div>
+                       
+ </div> 
+                    
+         
+ <div class="dropdown">
+   <li style="padding: 10px;">UI/UX Design</li>
+    <div class="list-main">
+    <li>Figma</li>
+    <li>Adobe</li>
+    <li>Ai</li>
+    <li>Ps</li>
+    <li>Web Design</li>
+</div>
+                           
+ </div>
+
+ <div class="dropdown">
+    <li style="padding: 10px;">Software Testing</li>
+    <div class="list-main">
+        <li>Automation</li>
+        <li>Manual</li>
+    </div>
+   
+ </div>
+
+ <div class="dropdown">
+    <li style="padding: 10px;">Digital Marketing</li>
+    <div class="list-main">
+        <li>Social Marketing</li>
+        <li>SEO</li>
+    </div>
+   
+ </div>
+
+
+    </div>
+
+</body>
+</html>
